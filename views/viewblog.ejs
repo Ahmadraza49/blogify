@@ -65,7 +65,7 @@
         <p><%= blog.body %></p>
 
         <% if (blog.tags && blog.tags.length) { %>
-            <div class="tags">
+            <div class="tags">        
                 <% blog.tags.forEach(tag => { %>
                     <span class="badge bg-primary"><%= tag %></span>
                 <% }) %>

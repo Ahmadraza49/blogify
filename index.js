@@ -34,7 +34,7 @@ app.use((req, res, next) => {
 app.set("view engine", "ejs");
 app.set("views", path.resolve("./views"));
 
-// ✅ UPDATED HOME ROUTE
+
 // ✅ UPDATED HOME ROUTE
 app.get("/", async (req, res) => {
     try {
